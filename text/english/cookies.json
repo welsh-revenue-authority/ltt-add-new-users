@@ -1,0 +1,98 @@
+{
+  "cookiesText": {
+    "beforeHeadingText": "Land Transaction Tax",
+    "headingText": "Cookies on WRA online services",
+    "cookiesDescription": "Cookies are files saved on your phone, tablet or computer when you visit a website. <br /><br /> We use cookies to store information about how you use our online services. These cookies are not used to identify you personally. <br /><br /> You can choose most cookies you're happy for us to use.",
+    "cookieSettingsHeading": "Cookie settings",
+    "websiteUseCookies": {
+      "headingText": "Cookies that measure website use",
+      "descriptionText": "We use Google Analytics to measure how you use our online services so we can improve them based on user needs. Google Analytics sets cookies that store anonymised information about: <br /><br /> <ul> <li>how you got to the site</li> <li>the pages you visit and how long you spend on each page</li> <li>what you click on while you're visiting the site</li> </ul> <br /> We do not allow Google to use or share the data about how you use this site.",
+      "expansionPanelText": "List of cookies that measure website use",
+      "tableName": "Name",
+      "tablePurpose": "Purpose",
+      "tableExpires": "Expires",
+      "answers": [
+        {
+          "value": "true",
+          "label": "On"
+        },
+        {
+          "value": "false",
+          "label": "Off"
+        }
+      ],
+      "tableContent": [
+        {
+          "name": "_ga",
+          "purpose": "This helps us count how many people visit wra.gov.wales by tracking if you've visited before",
+          "expires": "2 years"
+        },
+        {
+          "name": "_gid",
+          "purpose": "This helps us count how many people visit wra.gov.wales by tracking if you've visited before",
+          "expires": "24 hours"
+        },
+        {
+          "name": "_gat",
+          "purpose": "Used to manage the rate at which page view requests are made",
+          "expires": "1 hour"
+        }
+      ]
+    },
+    "performanceCookies": {
+      "headingText": "Performance cookies",
+      "descriptionText": "These cookies are associated with the Microsoft Application Insights software. They detect performance anomalies and collect statistical usage information to help fix issues.",
+      "expansionPanelText": "List of performance cookies",
+      "tableName": "Name",
+      "tablePurpose": "Purpose",
+      "tableExpires": "Expires",
+      "answers": [
+        {
+          "value": "true",
+          "label": "On"
+        },
+        {
+          "value": "false",
+          "label": "Off"
+        }
+      ],
+      "tableContent": [
+        {
+          "name": "ai_session",
+          "purpose": "This is used to group different actions into a single visit",
+          "expires": "30 minutes"
+        },
+        {
+          "name": "ai_user",
+          "purpose": "This is used to distinguish users",
+          "expires": "1 year"
+        }
+      ]
+    },
+    "necessaryCookies": {
+      "headingText": "Strictly necessary cookies",
+      "descriptionText": "We need these essential cookies to make our online services work. Because these cookies are strictly necessary to deliver our services they always need to be on.",
+      "expansionPanelText": "List of necessary cookies",
+      "tableName": "Name",
+      "tablePurpose": "Purpose",
+      "tableExpires": "Expires",
+      "tableContent": [
+        {
+          "name": "TmsCookieControl",
+          "purpose": "Records whether the cookies notification pop-up has been acknowledged by the user",
+          "expires": "1 year"
+        },
+        {
+          "name": "langControl",
+          "purpose": "Records your chosen language",
+          "expires": "1 year"
+        }
+      ]
+    },
+    "validationText": "Your cookie settings were saved,",
+    "validationLinkText": "go back to start",
+    "saveChangesButton": "Save changes",
+    "backButton": "Back to start",
+    "documentTitleText": "Cookies - WRA Services"
+  }
+}

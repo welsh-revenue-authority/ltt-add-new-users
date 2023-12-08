@@ -1,0 +1,98 @@
+{
+  "cookiesText": {
+    "beforeHeadingText": "Treth Trafodiadau Tir",
+    "headingText": "Cwcis ar wasanaethau ar-lein ACC",
+    "cookiesDescription": "Mae cwcis yn ffeiliau sy'n cael eu cadw ar eich ffôn, eich tabled neu eich cyfrifiadur pan fyddwch chi'n ymweld â gwefan. <br /><br /> Rydym yn defnyddio cwcis i storio gwybodaeth am sut rydych chi'n defnyddio ein gwasanaethau ar-lein. Nid yw'r cwcis hyn yn cael eu defnyddio i'ch adnabod chi'n bersonol. <br /><br /> Gallwch ddewis y rhan fwyaf o gwcis rydych yn fodlon i ni eu defnyddio.",
+    "cookieSettingsHeading": "Gosodiadau cwcis",
+    "websiteUseCookies": {
+      "headingText": "Cwcis sy'n mesur defnydd y wefan",
+      "descriptionText": "Rydym yn defnyddio Google Analytics i fesur sut rydych yn defnyddio ein gwasanaethau ar-lein er mwyn i ni allu eu gwella yn seiliedig ar anghenion defnyddwyr. Mae Google Analytics yn gosod cwcis sy'n storio gwybodaeth ddienw am: <br /><br /> <ul> <li>sut y cyrhaeddoch chi'r safle</li> <li>y tudalennau rydych yn ymweld â nhw a faint o amser rydych yn ei wario ar bob tudalen</li> <li>yr hyn yr ydych chi'n clicio arno tra byddwch yn ymweld â'r safle</li> </ul> <br /> Nid ydym yn caniatáu i Google ddefnyddio neu rannu'r data am sut rydych yn defnyddio'r safle hwn.",
+      "expansionPanelText": "Rhestr o gwcis sy'n mesur defnydd y wefan",
+      "tableName": "Enw",
+      "tablePurpose": "Pwrpas",
+      "tableExpires": "Dod i ben",
+      "answers": [
+        {
+          "value": "true",
+          "label": "Ymlaen"
+        },
+        {
+          "value": "false",
+          "label": "I ffwrdd"
+        }
+      ],
+      "tableContent": [
+        {
+          "name": "_ga",
+          "purpose": "Mae hwn yn ein helpu i gyfrif faint o bobl sy'n ymweld ag acc.llyw.cymru drwy dracio os ydych wedi ymweld o’r blaen",
+          "expires": "2 flynedd"
+        },
+        {
+          "name": "_gid",
+          "purpose": "Mae hwn yn ein helpu i gyfrif faint o bobl sy'n ymweld ag acc.llyw.cymru drwy dracio os ydych wedi ymweld o’r blaen",
+          "expires": "24 awr"
+        },
+        {
+          "name": "_gat",
+          "purpose": "Defnyddir hwn i reoli'r gyfradd y gwneir ceisiadau am weld tudalen",
+          "expires": "1 awr"
+        }
+      ]
+    },
+    "performanceCookies": {
+      "headingText": "Cwcis perfformiad",
+      "descriptionText": "Mae'r cwcis hyn yn gysylltiedig â meddalwedd Application Insights Microsoft. Maen nhw'n canfod anghysonderau perfformiad ac yn casglu gwybodaeth ystadegol am ddefnydd er mwyn helpu i ddatrys problemau.",
+      "expansionPanelText": "Rhestr o gwcis perfformiad",
+      "tableName": "Enw",
+      "tablePurpose": "Pwrpas",
+      "tableExpires": "Dod i ben",
+      "answers": [
+        {
+          "value": "true",
+          "label": "Ymlaen"
+        },
+        {
+          "value": "false",
+          "label": "I ffwrdd"
+        }
+      ],
+      "tableContent": [
+        {
+          "name": "ai_session",
+          "purpose": "Defnyddir hwn er mwyn grwpio camau gwahanol yn un ymweliad",
+          "expires": "30 munud"
+        },
+        {
+          "name": "ai_user",
+          "purpose": "Defnyddir hwn er mwyn gwahaniaethu rhwng defnyddwyr",
+          "expires": "1 flwyddyn"
+        }
+      ]
+    },
+    "necessaryCookies": {
+      "headingText": "Cwcis cwbl angenrheidiol",
+      "descriptionText": "Mae arnom angen y cwcis hanfodol hyn er mwyn gwneud i'n gwasanaethau ar-lein weithio. Gan fod y cwcis hyn yn gwbl angenrheidiol ar gyfer darparu ein gwasanaethau, mae angen iddynt fod ymlaen bob amser.",
+      "expansionPanelText": "Rhestr o gwcis angenrheidiol",
+      "tableName": "Enw",
+      "tablePurpose": "Pwrpas",
+      "tableExpires": "Dod i ben",
+      "tableContent": [
+        {
+          "name": "TmsCookieControl",
+          "purpose": "Cofnodi a yw'r defnyddiwr wedi cydnabod y neges ffenestr naid am gwcis",
+          "expires": "1 flwyddyn"
+        },
+        {
+          "name": "langControl",
+          "purpose": "Cofnodi eich dewis iaith",
+          "expires": "1 flwyddyn"
+        }
+      ]
+    },
+    "validationText": "Cafodd eich gosodiadau cwcis eu cadw,",
+    "validationLinkText": "ewch yn ôl i'r dechrau",
+    "saveChangesButton": "Cadw newidiadau",
+    "backButton": "Yn ôl i'r dechrau",
+    "documentTitleText": "Cwcis - Gwasanaethau ACC"
+  }
+}

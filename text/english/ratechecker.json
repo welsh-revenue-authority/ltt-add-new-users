@@ -1,0 +1,12 @@
+{
+  "rateCheckerText": {
+    "beforeHeadingText": "Land Transaction Tax",
+    "headingText": "Check if you need to pay the higher rate",
+    "needHelp": "Need help?",
+    "basedOnAnswers": "Results based on the following answers",
+    "validationText": "This question requires an answer.",
+    "previousButton": "Back",
+    "startAgainButton": "Start again",
+    "nextButton": "Next"
+  }
+}

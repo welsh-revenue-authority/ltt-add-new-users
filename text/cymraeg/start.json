@@ -1,0 +1,19 @@
+{
+  "startText": {
+    "beforeHeadingText": "Treth Trafodiadau Tir",
+    "headingText": "Gwasanaethau",
+    "lttCalculator": {
+      "linkText": "Cyfrifwch eich treth",
+      "text": "Defnyddiwch y gyfrifiannell hon i'ch helpu i weithio allan faint o Dreth Trafodiadau Tir (TTT) y bydd angen i chi ei dalu o bosib os fyddwch chi'n prynu eiddo neu dir yng Nghymru."
+    },
+    "rateChecker": {
+      "linkText": "Gwiriwr cyfradd uwch",
+      "text": "Gwiriwch a oes angen i chi dalu cyfradd uwch o Dreth Trafodiadau Tir."
+    },
+    "mdrCalculator": {
+      "linkText": "Cyfrifo rhyddhad anheddau lluosog",
+      "text": "Defnyddiwch y gyfrifiannell hon i'ch helpu i weithio allan faint o rhyddhad Treth Trafodiadau Tir (TTT) sydd yn berthnasol pan fyddwch yn prynu eiddo lluosog yng Nghymru."
+    },
+    "documentTitleText": "Adref - Gwasanaethau ACC"
+  }
+}

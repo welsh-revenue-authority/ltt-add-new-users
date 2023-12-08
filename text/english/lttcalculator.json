@@ -1,0 +1,261 @@
+﻿{
+  "text": {
+    "documentTitleText": "Calculate your tax",
+    "subheader": "Land Transaction Tax",
+    "header": "Calculate your tax",
+    "previous": "Back",
+    "next": "Next",
+    "restart": "Start again",
+    "calculate": "Calculate your tax",
+    "transactionType": {
+      "title": "What type of purchase is it?",
+      "description": "If you're buying a mix of residential and non-residential, choose non-residential.",
+      "validation": "Select the type of purchase.",
+      "answers": [
+        {
+          "value": "Residential",
+          "label": "Residential"
+        },
+        {
+          "value": "NonResidential",
+          "label": "Non-residential"
+        }
+      ]
+    },
+    "transactionRate": {
+      "title": "Will you need to pay the higher rate?",
+      "description": "You'll need to pay the higher rate if you'll own more than one residential property or are buying as a company. Find more information on when you need to pay the higher rate in our",
+      "linkText": "higher rates guide",
+      "link": "https://gov.wales/higher-rates-land-transaction-tax-guide",
+      "newTab": "Opens in a new tab",
+      "validation": "Select a higher rates residential option.",
+      "answers": [
+        {
+          "value": "HigherRates",
+          "label": "Yes"
+        },
+        {
+          "value": "MainRates",
+          "label": "No"
+        }
+      ]
+    },
+    "propertyType": {
+      "title": "What type of property is it?",
+      "validation": "Select the property type.",
+      "answers": [
+        {
+          "value": "Freehold",
+          "label": "Freehold"
+        },
+        {
+          "value": "NewLease",
+          "label": "Leasehold - new or replacement lease (grant of a lease)"
+        },
+        {
+          "value": "ExistingLease",
+          "label": "Leasehold - assignment of an existing lease"
+        }
+      ]
+    },
+    "transactionDate": {
+      "title": "What is the effective date?",
+      "description": "This is usually the completion date. We use the rates and bands on this date for the calculation. Please use the format DD/MM/YYYY.",
+      "checkbox": "Use today's date for a tax estimate if you do not know the date yet",
+      "placeholder": "DD/MM/YYYY",
+      "validation": {
+        "invalidDate": "Enter a valid date. The expected format is DD/MM/YYYY, leading zeros must be used if applicable.",
+        "preLtt": "This date must not be before 1 April 2018. Land Transaction Tax replaced Stamp Duty Land Tax in Wales from 1 April 2018."
+      }
+    },
+    "purchasePrice": {
+      "title": "What is the purchase price?",
+      "description": "This is the total consideration, rounded down to the nearest pound.",
+      "hint": "Enter whole numbers only, do not include decimal points.",
+      "validation": {
+        "invalidPrice": "Enter a valid purchase price.",
+        "aboveMax": "The purchase price must not exceed £999,999,999,999"
+      }
+    },
+    "totalPremium": {
+      "title": "What is the total premium?",
+      "description": "Total premium rounded down to the nearest pound.",
+      "hint": "Enter whole numbers only, do not include decimal points.",
+      "validation": {
+        "invalidPremium": "Enter the total premium.",
+        "aboveMax": "The total premium must not exceed £999,999,999,999"
+      }
+    },
+    "leaseTerm": {
+      "title": "What are the lease start and end dates?",
+      "description": "The lease term and rent information are used to calculate the net present value (NPV) of the rent. Please use the format DD/MM/YYYY.",
+      "startDate": {
+        "title": "What is the lease start date?",
+        "description": "For example:"
+      },
+      "endDate": {
+        "title": "What is the lease end date?",
+        "description": "For example:"
+      },
+      "placeholder": "DD/MM/YYYY",
+      "validation": {
+        "startDate": "Enter a valid start date of lease. The expected format is DD/MM/YYYY, leading zeros must be used if applicable.",
+        "endDate": "Enter a valid end date of lease. The expected format is DD/MM/YYYY, leading zeros must be used if applicable.",
+        "leaseStartDate": "The lease end date must be later than the lease start date.",
+        "effectiveDate": "The lease end date must be later than the effective date."
+      }
+    },
+    "calculationDate": {
+      "title": "Which date should be used for the calculation?",
+      "description": "Examples of where it may be appropriate to select 'Calculate from lease start date' would be in the case of holdover and notional leases, for most other transactions the 'Calculate from the effective date of transaction' would be the appropriate option.",
+      "validation": "Select a date to be used for calculation.",
+      "answers": [
+        {
+          "value": "EffectiveDate",
+          "label": "Calculate from the effective date of transaction"
+        },
+        {
+          "value": "LeaseStartDate",
+          "label": "Calculate from lease start date"
+        }
+      ]
+    },
+    "rentInformation": {
+      "title": "What are the rent amounts?",
+      "description": "The lease term and rent information are used to calculate the net present value (NPV) of the rent.",
+      "yearOne": {
+        "title": "Rent year 1",
+        "description": "Total amount"
+      },
+      "yearTwo": {
+        "title": "Rent year 2",
+        "description": "Total amount"
+      },
+      "yearThree": {
+        "title": "Rent year 3",
+        "description": "Total amount"
+      },
+      "yearFour": {
+        "title": "Rent year 4",
+        "description": "Total amount"
+      },
+      "yearFive": {
+        "title": "Rent year 5",
+        "description": "Total amount"
+      },
+      "relevantRent": {
+        "title": "What is the relevant rent?",
+        "guidance": {
+          "textP1": "Please see",
+          "linkText": "guidance LTTA/4110",
+          "textP2": "for more information on how to calculate relevant rent.",
+          "link": "https://gov.wales/land-transaction-tax-leases-technical-guidance#6818",
+          "newTab": "Opens in a new tab"
+        },
+        "description": "Total amount"
+      },
+      "highestRent": {
+        "title": "What is the highest rent payable in any consecutive 12 month period in the first 5 years?",
+        "description": "Total amount"
+      },
+      "validation": {
+        "errorOnPage": "There is a problem. Correct any required fields to continue.",
+        "yearOne": "Enter the rent year 1 amount.",
+        "yearTwo": "Enter the rent year 2 amount.",
+        "yearThree": "Enter the rent year 3 amount.",
+        "yearFour": "Enter the rent year 4 amount.",
+        "yearFive": "Enter the rent year 5 amount.",
+        "relevantRent": "Enter the relevant rent amount.",
+        "highestRent": "Enter the highest rent amount.",
+        "aboveMax": "Rent values must not exceed £999,999,999,999",
+        "belowRentValues": "The highest rent amount must not be less than the rent amount for any individual year."
+      }
+    },
+    "taxCalculation": {
+      "title": "Tax calculation",
+      "description": "Land Transaction Tax (LTT) is a self-assessed tax and therefore the Welsh Revenue Authority does not accept liability for the use by taxpayers or agents of this calculator.",
+      "calcResult": {
+        "totalTaxDue": "Total tax due",
+        "effectiveDate": "Effective date",
+        "leaseStartDate": "Lease start date",
+        "purchasePrice": "Purchase price",
+        "totalPremium": "Total premium",
+        "totalNpv": "Total net present value (NPV)"
+      },
+      "answerSummary": {
+        "title": "Summary of your answers",
+        "transactionType": "Type of purchase",
+        "transactionRate": "Higher rate",
+        "transactionDate": "Effective date",
+        "purchasePrice": "Purchase price",
+        "propertyType": "Type of property",
+        "calculationDate": "Date used for calculation",
+        "leaseStartDate": "Lease start date",
+        "leaseEndDate": "Lease end date",
+        "leaseDuration": "Term of lease",
+        "year": "year",
+        "day": "day",
+        "years": "years",
+        "days": "days",
+        "rentYearOne": "Rent year 1",
+        "rentYearTwo": "Rent year 2",
+        "rentYearThree": "Rent year 3",
+        "rentYearFour": "Rent year 4",
+        "rentYearFive": "Rent year 5",
+        "relevantRent": "Relevant rent",
+        "highestRent": "Highest 12 month rent in first 5 years",
+        "totalPremium": "Total premium",
+        "edit": "Edit"
+      },
+      "calcBreakdown": {
+        "title": "Detailed calculation",
+        "description": "This is a breakdown of how the total amount of tax was calculated​.",
+        "tableHeaders": {
+          "priceBands": "Purchase price bands",
+          "percentageRate": "Percentage rate",
+          "amount": "Amount",
+          "taxDue": "Tax due",
+          "rentBands": "Rent bands",
+          "type": "Type",
+          "totalAmount": "Total amount provided"
+        },
+        "rowDescriptions": {
+          "upTo": "Up to",
+          "above": "Above",
+          "andUpTo": "and up to",
+          "basedOnPremium": "Tax based on total premium",
+          "basedOnNpv": "Tax based on total NPV"
+        },
+        "premiumTitle": "LTT on the premium",
+        "premiumDescr": "This is the amount of tax based on the premium you provided.",
+        "npvTitle": "LTT on the net present value (NPV) of rent",
+        "npvDescr": "This is the amount of tax based on the lease term and rent values you provided.",
+        "subTotalCalcTitle": "Tax chargeable",
+        "subTotalCalcDescr": "This is a breakdown of all subtotal calculations.",
+        "totalTaxDue": "Total tax due:",
+        "basedOnPremium": "Subtotal tax based on premium:",
+        "basedOnNpv": "Subtotal tax based on NPV:",
+        "payLtt": {
+          "textP1": "If you buy this property it's your responsibility to make sure you",
+          "linkText": "file and pay",
+          "textP2": "LTT.",
+          "link": "https://gov.wales/land-transaction-tax-guide",
+          "newTab": "Opens in a new tab"
+        },
+        "submitReturn": {
+          "textP1": "You may need to",
+          "linkText": "file a return",
+          "textP2": "with the WRA, even if you don't need to pay any LTT.",
+          "link": "https://gov.wales/land-transaction-tax-guide",
+          "newTab": "Opens in a new tab"
+        }
+      },
+      "print": "Print or save",
+      "feedback": {
+        "text": "Tell us what you think of this calculator",
+        "link": "https://surveys.wra.gov.wales/s/Y2OC1/",
+        "newTab": "Opens in a new tab"
+      }
+    }
+  }
+}

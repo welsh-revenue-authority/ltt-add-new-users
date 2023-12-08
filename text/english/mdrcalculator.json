@@ -1,0 +1,190 @@
+{
+  "text": {
+    "documentTitleText": "Calculate multiple dwellings relief",
+    "subheader": "Land Transaction Tax",
+    "header": "Calculate multiple dwellings relief",
+    "previous": "Back",
+    "next": "Next",
+    "restart": "Start again",
+    "calculate": "Calculate your tax",
+    "isOtherLand": {
+      "title": "Have you purchased other land or properties other than dwellings?",
+      "description": "This would include any other land or properties bought as part of this purchase, but would not include any garden or grounds of the dwellings.",
+      "answers": [
+        {
+          "value": "True",
+          "label": "Yes"
+        },
+        {
+          "value": "False",
+          "label": "No"
+        }
+      ],
+      "validation": {
+        "invalidOption": "Select an other land or properties option."
+      }
+    },
+    "considerationOtherLand": {
+      "title": "How much of the purchase price paid was for other land or properties?",
+      "description": "This is the total amount paid less any amount paid for dwellings as part of this purchase.",
+      "hint": "Enter whole numbers only, do not include decimal points.",
+      "validation": {
+        "invalidPrice": "Enter a valid purchase price.",
+        "aboveMax": "The purchase price must not exceed £999,999,999,999"
+      }
+    },
+    "otherLandType": {
+      "title": "What type of other land have you purchased?",
+      "description": "Select what type of other land is being purchased with the dwellings.",
+      "answers": [
+        {
+          "value": "Residential",
+          "label": "Residential"
+        },
+        {
+          "value": "NonResidential",
+          "label": "Non-residential"
+        }
+      ],
+      "validation": {
+        "invalidOption": "Select a type of other land."
+      }
+    },
+    "transactionRate": {
+      "title": "Will you need to pay the higher rate?",
+      "descriptionOne": "If you're an individual it's expected that the higher rates will apply to a purchase where there's more than one dwelling, unless the purchase is of mixed use or the subsidiary dwelling exception at",
+      "linkText": "LTTA/8080 technical guidance",
+      "link": "https://gov.wales/higher-rates-purchases-residential-property-technical-guidance#5219",
+      "newTab": "Opens in a new tab",
+      "descriptionTwo": "applies.",
+      "descriptionThree": "If you're a company, the higher rates will apply unless the purchase is of mixed use.",
+      "validation": "Select a higher rates residential option.",
+      "answers": [
+        {
+          "value": "HigherRates",
+          "label": "Yes"
+        },
+        {
+          "value": "MainRates",
+          "label": "No"
+        }
+      ]
+    },
+    "transactionDate": {
+      "title": "What is the effective date?",
+      "description": "This is usually the completion date. We use the rates and bands on this date for the calculation. Please use the format DD/MM/YYYY.",
+      "checkbox": "Use today's date for a tax estimate if you do not know the date yet",
+      "placeholder": "DD/MM/YYYY",
+      "validation": {
+        "invalidDate": "Enter a valid date. The expected format is DD/MM/YYYY, leading zeros must be used if applicable.",
+        "preLtt": "This date must not be before 1 April 2018. Land Transaction Tax replaced Stamp Duty Land Tax in Wales from 1 April 2018."
+      }
+    },
+    "considerationDwellings": {
+      "title": "How much of the purchase price paid was for the dwellings?",
+      "description": "This is the total amount paid less any amount paid for other land or properties that are not considered dwellings as part of this purchase.",
+      "hint": "Enter whole numbers only, do not include decimal points.",
+      "validation": {
+        "invalidPrice": "Enter a valid purchase price.",
+        "aboveMax": "The purchase price must not exceed £999,999,999,999"
+      }
+    },
+    "numberOfDwellings": {
+      "title": "How many dwellings have you purchased?",
+      "description": "This is the total number of dwellings bought as part of this purchase.",
+      "hint": "Enter whole numbers only.",
+      "validation": {
+        "invalidNumber": "Enter a valid number.",
+        "aboveMax": "The number must not exceed 999,999,999,999",
+        "belowMin": "The number must not be less than 2"
+      }
+    },
+    "taxCalculation": {
+      "title": "Tax calculation",
+      "description": "Land Transaction Tax (LTT) is a self-assessed tax and therefore the Welsh Revenue Authority does not accept liability for the use by taxpayers or agents of this calculator.",
+      "calcResult": {
+        "totalTaxDue": "Total tax due",
+        "effectiveDate": "Effective date",
+        "totalPurchasePrice": "Total purchase price"
+      },
+      "answerSummary": {
+        "title": "Summary of your answers",
+        "isOtherLand": "Other land",
+        "considerationOtherLand": "Purchase price for other land",
+        "otherLandType": "Other land type",
+        "transactionRate": "Higher rate",
+        "transactionDate": "Effective date",
+        "considerationDwellings": "Purchase price for dwellings",
+        "numberOfDwellings": "Number of dwellings",
+        "edit": "Edit"
+      },
+      "calcBreakdown": {
+        "title": "Detailed calculation",
+        "description": "This is a breakdown of how the total amount of tax was calculated.",
+        "explanation": {
+          "stepOne": "Step one",
+          "pricePerDwelling": "The purchase price paid for the dwellings divided by the number of dwellings is",
+          "breakdownTable": "The table below shows a breakdown of the",
+          "taxDuePerDwelling": "tax due per dwelling",
+
+          "stepTwo": "Step two",
+          "oneDwelling": "The 'tax due per dwelling' amount above is the tax due for 1 dwelling.",
+          "youArePurchasing": "You are purchasing",
+          "dwellings": "dwellings",
+          "soYour": "so your",
+          "taxDueOnDwellings": "total tax due on the dwellings is",
+
+          "stepThree": "Step three",
+          "taxDueOnOtherLand": "The tax due on the other land is calculated as follows",
+          "taxCalculated": "The tax is calculated using the total purchase price paid for all dwellings, including the price paid for the other land.",
+          "tableBelow": "The table below shows a breakdown of the tax due based on the total purchase price",
+          "purchasePriceOtherLand": "The purchase price paid for the other land is",
+          "whichIsPercent": "which is",
+          "totalPurchasePrice": "of the total purchase price",
+          "thereforeOnly": "Therefore, only",
+          "appliesToThisStep": "of the tax calculated using the total purchase price applies to this step.",
+          "the": "The",
+          "totalTaxDueOtherLand": "total tax due on the other land is",
+
+          "lessThanOnePercent": "Your 'tax due per dwelling' multiplied by the number of dwellings is less than 1% of the purchase price paid for the dwellings",
+          "therefore": "Therefore",
+          "payOnePercent": "you must pay 1% of the purchase price paid for the dwellings",
+          "whichIs": "which is"
+        },
+        "tableHeaders": {
+          "priceBands": "Purchase price bands",
+          "percentageRate": "Percentage rate",
+          "amount": "Amount",
+          "taxDue": "Tax due",
+          "type": "Type",
+          "totalAmount": "Total amount provided"
+        },
+        "rowDescriptions": {
+          "upTo": "Up to",
+          "above": "Above",
+          "andUpTo": "and up to",
+          "basedOnDwellings": "Tax based on the dwellings",
+          "basedOnOtherLand": "Tax based on the other land"
+        },
+        "taxDuePerDwelling": "Tax due per dwelling:",
+        "taxDueTotalPurchasePrice": "Tax due on total purchase price:",
+        "subTotalCalcTitle": "Tax chargeable",
+        "subTotalCalcDescr": "This is a breakdown of all subtotal calculations.",
+        "totalTaxDue": "Total tax due:",
+        "payLtt": {
+          "textP1": "If you buy these properties it's your responsibility to make sure you",
+          "linkText": "file and pay",
+          "textP2": "LTT.",
+          "link": "https://gov.wales/land-transaction-tax-guide",
+          "newTab": "Opens in a new tab"
+        }
+      },
+      "print": "Print or save",
+      "feedback": {
+        "text": "Tell us what you think of this calculator",
+        "link": "https://surveys.wra.gov.wales/s/MDRCalculatorFeedback/",
+        "newTab": "Opens in a new tab"
+      }
+    }
+  }
+}

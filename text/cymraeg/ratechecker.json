@@ -1,0 +1,12 @@
+{
+  "rateCheckerText": {
+    "beforeHeadingText": "Treth Trafodiadau Tir",
+    "headingText": "Gwiriwch a oes angen i chi dalu y cyfradd uwch",
+    "needHelp": "Angen cymorth?",
+    "basedOnAnswers": "Canlyniadau yn seiliedig ar yr atebion canlynol",
+    "validationText": "Mae angen ateb ar y cwestiwn hwn.",
+    "previousButton": "Yn &ocirc;l",
+    "startAgainButton": "Dechrau eto",
+    "nextButton": "Nesaf"
+  }
+}

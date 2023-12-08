@@ -1,0 +1,261 @@
+﻿{
+  "text": {
+    "documentTitleText": "Cyfrifwch eich treth",
+    "subheader": "Treth Trafodiadau Tir",
+    "header": "Cyfrifwch eich treth",
+    "previous": "Yn ôl",
+    "next": "Nesaf",
+    "restart": "Dechrau eto",
+    "calculate": "Cyfrifwch eich treth",
+    "transactionType": {
+      "title": "Pa fath o bryniant ydyw?",
+      "description": "Os ydych yn prynu cymysgedd o eiddo preswyl ac amhreswyl, dewiswch amhreswyl.",
+      "validation": "Dewiswch y math o bryniant.",
+      "answers": [
+        {
+          "value": "Residential",
+          "label": "Preswyl"
+        },
+        {
+          "value": "NonResidential",
+          "label": "Amhreswyl"
+        }
+      ]
+    },
+    "transactionRate": {
+      "title": "A fydd angen i chi dalu'r gyfradd uwch?",
+      "description": "Bydd angen i chi dalu'r gyfradd uwch os ydych yn berchen ar fwy nag un eiddo preswyl neu'n prynu fel cwmni. Mae rhagor o wybodaeth ynghylch pryd y bydd angen i chi dalu'r gyfradd uwch yn ein",
+      "linkText": "canllaw cyfraddau uwch",
+      "link": "https://llyw.cymru/canllaw-treth-trafodiadau-tir-ar-gyfraddau-uwch",
+      "newTab": "Yn agor mewn tab newydd",
+      "validation": "Dewiswch opsiwn cyfraddau preswyl uwch.",
+      "answers": [
+        {
+          "value": "HigherRates",
+          "label": "Bydd"
+        },
+        {
+          "value": "MainRates",
+          "label": "Na fydd"
+        }
+      ]
+    },
+    "propertyType": {
+      "title": "Pa fath o eiddo ydyw?",
+      "validation": "Dewiswch y math o eiddo.",
+      "answers": [
+        {
+          "value": "Freehold",
+          "label": "Rhydd-ddaliad"
+        },
+        {
+          "value": "NewLease",
+          "label": "Lesddaliad - les newydd neu amnewid les (rhoi les)"
+        },
+        {
+          "value": "ExistingLease",
+          "label": "Lesddaliad - aseinio les sy'n bodoli eisoes"
+        }
+      ]
+    },
+    "transactionDate": {
+      "title": "Beth yw'r dyddiad dod i rym?",
+      "description": "Dyma'r dyddiad cwblhau fel arfer. Rydym yn defnyddio'r cyfraddau a'r bandiau ar y dyddiad hwn ar gyfer cyfrifo. Defnyddiwch y fformat DD/MM/BBBB.",
+      "checkbox": "Defnyddiwch ddyddiad heddiw i gael amcangyfrif treth os nad ydych chi'n gwybod y dyddiad eto",
+      "placeholder": "DD/MM/BBBB",
+      "validation": {
+        "invalidDate": "Rhowch ddyddiad dilys. Y fformat disgwyliedig yw DD/MM/BBBB, rhaid defnyddio sero arweiniol os yw'n berthnasol.",
+        "preLtt": "Rhaid i'r dyddiad hwn beidio â bod cyn 01/04/2018. Disodlodd Treth Trafodiadau Tir (TTT) Dreth Tir y Dreth Stamp (SDLT) yng Nghymru o 1 Ebrill 2018."
+      }
+    },
+    "purchasePrice": {
+      "title": "Beth yw'r pris prynu?",
+      "description": "Dyma gyfanswm y gydnabyddiaeth, wedi'i dalgrynnu i lawr i'r bunt agosaf.",
+      "hint": "Rhowch rifau cyfan yn unig, peidiwch â chynnwys pwyntiau degol.",
+      "validation": {
+        "invalidPrice": "Rhowch bris prynu dilys.",
+        "aboveMax": "Ni ddylai'r pris prynu fod yn fwy na £999,999,999,999"
+      }
+    },
+    "totalPremium": {
+      "title": "Beth yw cyfanswm y premiwm?",
+      "description": "Cyfanswm y premiwm wedi'i dalgrynnu i lawr i'r bunt agosaf.",
+      "hint": "Rhowch rifau cyfan yn unig, peidiwch â chynnwys pwyntiau degol.",
+      "validation": {
+        "invalidPremium": "Rhowch gyfanswm y premiwm.",
+        "aboveMax": "Ni ddylai'r premiwm fod yn fwy na £999,999,999,999"
+      }
+    },
+    "leaseTerm": {
+      "title": "Beth yw dyddiadau cychwyn a gorffen y les?",
+      "description": "Defnyddir gwybodaeth am gyfnod y les a'r rhent i gyfrifo gwerth net presennol (GNP) y rhent. Defnyddiwch y fformat DD/MM/BBBB.",
+      "startDate": {
+        "title": "Beth yw dyddiad cychwyn y les?",
+        "description": "Er enghraifft:"
+      },
+      "endDate": {
+        "title": "Beth yw dyddiad gorffen y les?",
+        "description": "Er enghraifft:"
+      },
+      "placeholder": "DD/MM/BBBB",
+      "validation": {
+        "startDate": "Rhowch ddyddiad cychwyn dilys y les. Y fformat disgwyliedig yw DD/MM/BBBB, rhaid defnyddio sero arweiniol os yw'n berthnasol.",
+        "endDate": "Rhowch ddyddiad gorffen dilys y les. Y fformat disgwyliedig yw DD/MM/BBBB, rhaid defnyddio sero arweiniol os yw'n berthnasol.",
+        "leaseStartDate": "Rhaid i ddyddiad gorffen y les fod yn ddiweddarach na dyddiad cychwyn y les.",
+        "effectiveDate": "Rhaid i ddyddiad gorffen y les fod yn ddiweddarach na'r dyddiad dod i rym."
+      }
+    },
+    "calculationDate": {
+      "title": "Pa ddyddiad ddylid ei ddefnyddio ar gyfer y cyfrifiad?",
+      "description": "Byddai enghreifftiau o ble y gallai fod yn briodol dewis 'Cyfrifo o ddyddiad cychwyn y les' yn cynnwys achosion o lesoedd dal drosodd a thybiannol, ar gyfer y mwyafrif o drafodiadau eraill 'Cyfrifwch o ddyddiad dod i rym y trafodiad' fyddai'r opsiwn priodol.",
+      "validation": "Dewiswch ddyddiad i'w ddefnyddio ar gyfer cyfrifo.",
+      "answers": [
+        {
+          "value": "EffectiveDate",
+          "label": "Cyfrifwch o ddyddiad dod i rym y trafodiad"
+        },
+        {
+          "value": "LeaseStartDate",
+          "label": "Cyfrifwch o ddyddiad cychwyn y les"
+        }
+      ]
+    },
+    "rentInformation": {
+      "title": "Beth yw'r symiau rhent?",
+      "description": "Defnyddir gwybodaeth am gyfnod y les a'r rhent i gyfrifo gwerth net presennol (GNP) y rhent.",
+      "yearOne": {
+        "title": "Blwyddyn rhent 1",
+        "description": "Cyfanswm"
+      },
+      "yearTwo": {
+        "title": "Blwyddyn rhent 2",
+        "description": "Cyfanswm"
+      },
+      "yearThree": {
+        "title": "Blwyddyn rhent 3",
+        "description": "Cyfanswm"
+      },
+      "yearFour": {
+        "title": "Blwyddyn rhent 4",
+        "description": "Cyfanswm"
+      },
+      "yearFive": {
+        "title": "Blwyddyn rhent 5",
+        "description": "Cyfanswm"
+      },
+      "relevantRent": {
+        "title": "Beth yw'r rhent perthnasol?",
+        "guidance": {
+          "textP1": "Gweler",
+          "linkText": "ganllaw DTTT/4110",
+          "textP2": "am fwy o wybodaeth ar sut i gyfrifo rhent perthnasol.",
+          "link": "https://llyw.cymru/treth-trafodiadau-tir-lesoedd-canllawiau-technegol#6818",
+          "newTab": "Yn agor mewn tab newydd"
+        },
+        "description": "Cyfanswm"
+      },
+      "highestRent": {
+        "title": "Beth yw'r rhent uchaf sy'n daladwy mewn unrhyw gyfnod o 12 mis yn olynol yn ystod y 5 mlynedd gyntaf?",
+        "description": "Cyfanswm"
+      },
+      "validation": {
+        "errorOnPage": "Mae yna problem. Cywirwch unrhyw feysydd gofynnol i barhau.",
+        "yearOne": "Rhowch swm blwyddyn rhent 1.",
+        "yearTwo": "Rhowch swm blwyddyn rhent 2.",
+        "yearThree": "Rhowch swm blwyddyn rhent 3.",
+        "yearFour": "Rhowch swm blwyddyn rhent 4.",
+        "yearFive": "Rhowch swm blwyddyn rhent 5.",
+        "relevantRent": "Rhowch y swm rhent perthnasol.",
+        "highestRent": "Rhowch y swm rhent uchaf.",
+        "aboveMax": "Ni ddylai'r swm rhent yma fod yn fwy na £999,999,999,999",
+        "belowRentValues": "Ni ddylai'r swm rhent uchaf bod yn llai na'r swm rhent ar gyfer unrhyw flwyddyn unigol."
+      }
+    },
+    "taxCalculation": {
+      "title": "Cyfrifiad treth",
+      "description": "Mae Treth Trafodiadau Tir (TTT) yn dreth sy'n cael ei hunanasesu ac felly nid yw Awdurdod Cyllid Cymru yn derbyn cyfrifoldeb am ddefnydd trethdalwyr neu asiantau o'r gyfrifiannell hon.",
+      "calcResult": {
+        "totalTaxDue": "Cyfanswm y dreth sy'n ddyledus",
+        "effectiveDate": "Dyddiad dod i rym",
+        "leaseStartDate": "Dyddiad cychwyn y les",
+        "purchasePrice": "Pris prynu",
+        "totalPremium": "Cyfanswm y premiwm",
+        "totalNpv": "Cyfanswm y gwerth net presennol (GNP)"
+      },
+      "answerSummary": {
+        "title": "Crynodeb o'ch atebion",
+        "transactionType": "Math o bryniant",
+        "transactionRate": "Cyfradd uwch",
+        "transactionDate": "Dyddiad dod i rym",
+        "purchasePrice": "Pris prynu",
+        "propertyType": "Math o eiddo",
+        "calculationDate": "Dyddiad a ddefnyddiwyd ar gyfer cyfrifo",
+        "leaseStartDate": "Dyddiad cychwyn y les",
+        "leaseEndDate": "Dyddiad gorffen y les",
+        "leaseDuration": "Cyfnod y les",
+        "year": "blwyddyn",
+        "day": "diwrnod",
+        "years": "blwyddyn",
+        "days": "diwrnod",
+        "rentYearOne": "Blwyddyn rhent 1",
+        "rentYearTwo": "Blwyddyn rhent 2",
+        "rentYearThree": "Blwyddyn rhent 3",
+        "rentYearFour": "Blwyddyn rhent 4",
+        "rentYearFive": "Blwyddyn rhent 5",
+        "relevantRent": "Rhent perthnasol",
+        "highestRent": "Rhent 12 mis uchaf yn ystod y 5 mlynedd gyntaf",
+        "totalPremium": "Cyfanswm y premiwm",
+        "edit": "Golygu"
+      },
+      "calcBreakdown": {
+        "title": "Cyfrifiad manwl",
+        "description": "Dyma ddadansoddiad o sut y cyfrifwyd cyfanswm y dreth.",
+        "tableHeaders": {
+          "priceBands": "Bandiau prisiau prynu",
+          "percentageRate": "Cyfradd ganrannol",
+          "amount": "Swm",
+          "taxDue": "Treth sy'n ddyledus",
+          "rentBands": "Bandiau rhent",
+          "type": "Math",
+          "totalAmount": "Cyfanswm a nodwyd"
+        },
+        "rowDescriptions": {
+          "upTo": "Hyd at",
+          "above": "Mwy na",
+          "andUpTo": "a hyd at",
+          "basedOnPremium": "Treth yn seiliedig ar gyfanswm y premiwm",
+          "basedOnNpv": "Treth yn seiliedig ar gyfanswm GNP"
+        },
+        "premiumTitle": "TTT ar y premiwm",
+        "premiumDescr": "Dyma swm y dreth yn seiliedig ar y premiwm a nodwyd gennych.",
+        "npvTitle": "TTT ar werth net presennol (GNP) y rhent",
+        "npvDescr": "Dyma swm y dreth yn seiliedig ar gyfnod y les a'r gwerthoedd rhent a nodwyd gennych.",
+        "subTotalCalcTitle": "Treth yn daladwy",
+        "subTotalCalcDescr": "Dyma ddadansoddiad o gyfrifiadau'r is-gyfansymiau.",
+        "totalTaxDue": "Cyfanswm y dreth sy'n ddyledus:",
+        "basedOnPremium": "Is-gyfanswm y dreth yn seiliedig ar y premiwm:",
+        "basedOnNpv": "Is-gyfanswm y dreth yn seiliedig ar y GNP:",
+        "payLtt": {
+          "textP1": "Os ydych yn prynu'r eiddo hwn, eich cyfrifoldeb chi yw sicrhau eich bod yn",
+          "linkText": "ffeilio a thalu",
+          "textP2": "TTT.",
+          "link": "https://llyw.cymru/treth-trafodiadau-tir-canllaw",
+          "newTab": "Yn agor mewn tab newydd"
+        },
+        "submitReturn": {
+          "textP1": "Mae'n debyg bod angen i chi",
+          "linkText": "ffeilio ffurflen dreth",
+          "textP2": "gydag ACC, hyd yn oed os nad oes angen i chi dalu unrhyw TTT.",
+          "link": "https://llyw.cymru/treth-trafodiadau-tir-canllaw",
+          "newTab": "Yn agor mewn tab newydd"
+        }
+      },
+      "print": "Argraffu neu arbed",
+      "feedback": {
+        "text": "Rhowch eich barn am y gyfrifiannell hon",
+        "link": "https://surveys.wra.gov.wales/s/Y2OC1/?lang=405073",
+        "newTab": "Yn agor mewn tab newydd"
+      }
+    }
+  }
+}

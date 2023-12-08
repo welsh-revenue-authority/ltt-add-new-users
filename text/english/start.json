@@ -1,0 +1,19 @@
+{
+  "startText": {
+    "beforeHeadingText": "Land Transaction Tax",
+    "headingText": "Services",
+    "lttCalculator": {
+      "linkText": "Calculate your tax",
+      "text": "Use this calculator to help you work out how much Land Transaction Tax (LTT) you may need to pay if you buy property or land in Wales."
+    },
+    "rateChecker": {
+      "linkText": "Higher rate checker",
+      "text": "Check if you need to pay a higher rate of Land Transaction Tax."
+    },
+    "mdrCalculator": {
+      "linkText": "Calculate multiple dwellings relief",
+      "text": "Use this calculator to help you work out how much Land Transaction Tax (LTT) relief applies when you buy multiple dwellings in Wales."
+    },
+    "documentTitleText": "Home - WRA Services"
+  }
+}
