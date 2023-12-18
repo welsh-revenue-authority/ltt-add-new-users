@@ -12,7 +12,7 @@
     "toolbar": {
       "logoLinkText": "Go to the main Welsh Government site",
       "logoAltText": "Welsh Government Logo",
-      "logoFilePath": "/img/wg-logo-white.svg",
+      "logoFilePath": "/ltt-add-new-users/img/wg-logo-white.svg",
       "logoHref": "https://gov.wales/"
     },
     "feedbackControl": {
@@ -37,13 +37,13 @@
     "wraLogo": {
       "logoLinkText": "Go to the main Welsh Revenue Authority site",
       "logoAltText": "Welsh Revenue Authority Logo",
-      "logoFilePath": "/img/wra-logo-english.svg",
+      "logoFilePath": "/ltt-add-new-users/img/wra-logo-english.svg",
       "logoHref": "https://gov.wales/welsh-revenue-authority"
     },
     "wgLogo": {
       "logoLinkText": "Go to the main Welsh Government site",
       "logoAltText": "Welsh Government Logo",
-      "logoFilePath": "/img/wg-logo-black.svg",
+      "logoFilePath": "/ltt-add-new-users/img/wg-logo-black.svg",
       "logoHref": "https://gov.wales/"
     },
     "footer": {
