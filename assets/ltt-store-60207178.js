@@ -1,0 +1,1 @@
+import{q as e}from"./index-13fa480d.js";const a=e("ltt",{state:()=>({users:[{name:"Chandler Bing",email:"chandler.bing@gmail.com",type:"Administrator",status:"Active"},{name:"Phoebe Buffay",email:"phoebe.buffay@gmail.com",type:"User",status:"Active"},{name:"Rachel Green",email:"rachel.green@gmail.com",type:"User",status:"Active"}]}),getters:{},actions:{}});export{a as l};
