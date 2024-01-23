@@ -12,7 +12,7 @@
     "toolbar": {
       "logoLinkText": "Ewch i brif safle Llywodraeth Cymru",
       "logoAltText": "Logo Llywodraeth Cymru",
-      "logoFilePath": "img/wg-logo-white.svg",
+      "logoFilePath": "/ltt-add-new-users/img/wg-logo-white.svg",
       "logoHref": "https://llyw.cymru/"
     },
     "feedbackControl": {
@@ -37,13 +37,13 @@
     "wraLogo": {
       "logoLinkText": "Ewch i brif safle Awdurdod Cyllid Cymru",
       "logoAltText": "Logo Awdurdod Cyllid Cymru",
-      "logoFilePath": "img/wra-logo-welsh.svg",
+      "logoFilePath": "/ltt-add-new-users/img/wra-logo-english.svg",
       "logoHref": "https://llyw.cymru/awdurdod-cyllid-cymru"
     },
     "wgLogo": {
       "logoLinkText": "Ewch i brif safle Llywodraeth Cymru",
       "logoAltText": "Logo Llywodraeth Cymru",
-      "logoFilePath": "img/wg-logo-black.svg",
+      "logoFilePath": "/ltt-add-new-users/img/wg-logo-black.svg",
       "logoHref": "https://llyw.cymru/"
     },
     "footer": {
